@@ -1,7 +1,7 @@
 # 4x4-Sudoku-using-Prolog
 This is a Prolog code that solves a 4x4 Sudoku, using BFS, DFS, and Heuristic searching Algorithms. A 4x4 board is given to the predicates to find the needed info. Empty tiles in the board is given as a "_"(anonymous variable).  The code also includes different predicates that are needed to obtain our goal.
 
-Predicates:
+##Predicates:
 
   First_empty:
   This predicate is used to find the first empty tile(_) in your board and returns its index.
@@ -15,7 +15,7 @@ Predicates:
   Next_move:
   This predicate is used to show all the possible digits that can be placed in the first empty tile.
   
-Searching Algorithms:
+##Searching Algorithms:
 
   DFS(Depth First Search):
   A dfs algorithm is exectued using the next_move predicate and then recalling the dfs predicate. A base condition is there to ensure that the board has finally been solved.
